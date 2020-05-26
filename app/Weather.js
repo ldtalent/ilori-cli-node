@@ -8,7 +8,8 @@ class Weather {
     const Url = `http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${ApiKey}`;
 
     await Axios.get(Url)
-    .then(function (response) {
+    .then(function (resp) {
+      let response = resp.data;
       console.log('************** Current Weather ******************');
       console.log(`Description: ${response.weather[0].main}`);
       console.log('**************************************************');

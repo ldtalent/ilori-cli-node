@@ -57,7 +57,7 @@ const YargsArgV = Yargs
       describe: 'Deletes a Note with this title.'
     }
   }).command('fetchWeather', 'Fetches information about the weather for a specific city', {
-    title: {
+    city: {
       alias: 'c',
       demand: true,
       describe: 'Fetches information about the weather for this city.'
