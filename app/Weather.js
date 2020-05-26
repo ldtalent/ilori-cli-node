@@ -3,7 +3,7 @@ const Axios = require('axios');
 class Weather {
   constructor() { }
 
-  async getWeather(cityName) {
+  async getWeather(cityName = 'Lagos') {
     const ApiKey = 'YOUR_API_KEY';
     const Url = `http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${ApiKey}`;
 
