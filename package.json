@@ -1,0 +1,29 @@
+{
+  "name": "node-cli-app",
+  "version": "1.0.0",
+  "description": "A cli app in node js for getting details about the weather.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learningdollars/ilori-cli-node.git"
+  },
+  "keywords": [
+    "Cli",
+    "Weather"
+  ],
+  "author": "Ilori Stephen A",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/learningdollars/ilori-cli-node/issues"
+  },
+  "homepage": "https://github.com/learningdollars/ilori-cli-node#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "lodash": "^4.17.15",
+    "mongodb": "^3.5.7",
+    "yargs": "^15.3.1"
+  }
+}
