@@ -4,7 +4,7 @@ class Weather {
   constructor() { }
 
   async getWeather(cityName) {
-    const ApiKey = '92577576db12b8bd2215af32e2e2127f';
+    const ApiKey = 'YOUR_API_KEY';
     const Url = `http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${ApiKey}`;
 
     await Axios.get(Url)
