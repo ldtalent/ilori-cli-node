@@ -50,9 +50,9 @@ class Notes {
 
       if (NewNote) {
         console.log('*********** NEW NOTE ***********');
-        console.log(`Title: ${note.title}`);
-        console.log(`Body: ${note.body}`);
-        console.log(`Completed: ${note.completed}`);
+        console.log(`Title: ${NewNote.title}`);
+        console.log(`Body: ${NewNote.body}`);
+        console.log(`Completed: ${NewNote.completed}`);
         console.log('*********** NEW NOTE ***********');
       }
     } catch (e) {
